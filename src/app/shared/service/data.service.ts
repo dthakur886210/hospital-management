@@ -50,3 +50,6 @@ export class DataService {
     return this.afs.doc("Patient/"+id).valueChanges();
   }
 }
+
+
+
