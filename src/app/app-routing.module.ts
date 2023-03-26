@@ -8,7 +8,7 @@ import { ViewPatientComponent } from './component/dashboard/patient/view-patient
 import { AuthguardGuard } from './shared/guard/authguard.guard';
 
 const routes: Routes = [
-  {path : '', redirectTo : 'login', pathMatch : 'full'},
+  {path : '', redirectTo : 'login', pathMatch :'full'},
   {path : 'dashboard', children :
   [
     {path : '', redirectTo: 'patient', pathMatch: 'full'},
